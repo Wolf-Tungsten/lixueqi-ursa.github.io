@@ -21,18 +21,40 @@
     <link rel="stylesheet" href="/assets/css/style.css?v=fdfea730aa843776fb1fc473a6a40ea74dcda959">
     
     <style type="text/css">
-      td {
-          border-collapse: collapse;
-          border-spacing: 0;
-          text-align: center;
-
-      }
       table {
-         border-collapse: collapse;
-          border-spacing: 0;
-          text-align: center;
-          }
-    </style>>
+  margin-left:0;
+  margin-right:0;
+  border-collapse: collapse;
+  margin-top:50px;
+}
+
+tr.icons {
+  vertical-align:bottom;
+}
+
+tr.blurbs {
+  vertical-align:top;
+  text-align: center;
+}
+
+td {
+  width:200px;
+  border: 0px solid transparent;
+  background-clip: padding-box;
+}
+
+td img {
+  width: 100%;
+}
+
+tr > td + td {
+  border-left-width: 50px;
+}
+
+tr + tr.icons > td {
+  border-top-width: 20px;
+}
+    </style>
     
   </head>
   <body>
