@@ -1,0 +1,166 @@
+body {
+  font-family: 'Oxygen', sans-serif;
+  margin:0px 0px 40px 0px;
+  min-width:800px;
+}
+
+header {
+  color: #ffffff;
+  margin:0px 0px 40px 0px;
+  padding:40px;
+}
+
+header.blue {
+  background-color: #284596;
+}
+
+header.gold {
+  background-color: #f7af25;
+}
+
+header a {
+  color: #ffffff;
+  font-style: normal;
+  text-decoration: none;
+}
+
+section {
+  margin:auto;
+  max-width:700px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 350%;
+  margin: 0px 0px 30px 0px;
+}
+
+h2 {
+  margin-left:10px;
+  margin-top:40px;
+  margin-bottom:10px;
+}
+
+h3 {
+  text-align: center;
+  font-size:100%;
+  font-weight:normal;
+  font-style:italic;
+}
+
+h4 {
+  text-align: center;
+  font-size:120%;
+  font-weight:normal;
+  margin: 0px;
+}
+
+h5 {
+  font-size:120%;
+  font-weight:normal;
+  margin: 0px;
+}
+
+p {
+  margin-left:20px;
+  margin-right:20px;
+  line-height: 150%;
+}
+
+li {
+  line-height: 150%;
+}
+
+ol {
+  margin-right:20px;
+}
+
+img.big {
+  float:left;
+  width:180px;
+  margin-left:5%;
+  padding-bottom:50px;
+}
+
+img.small {
+  float:left;
+  width:100px;
+  margin-left:5%;
+  margin-right:10px;
+}
+
+img.fig {
+  width:100%;
+  margin-left:0;
+  margin-right:0;
+}
+
+.centering {
+  float:center;
+  margin-top:15px;
+}
+
+.left_col {
+  float:left;
+  width:340px;
+  margin-bottom:20px;
+}
+
+.right_col {
+  float:right;
+  width:340px;
+  margin-bottom:50px;
+}
+
+mark.highlight {
+  color:#f7af25;
+  background: none;
+}
+
+figcaption {
+  font-style: italic;
+  font-weight: bold;
+}
+
+p+ul {
+  margin-top:-10px;
+}
+
+ol li {
+  padding-bottom:10px;
+}
+
+
+table {
+  margin-left:0;
+  margin-right:0;
+  border-collapse: collapse;
+  margin-top:50px;
+}
+
+tr.icons {
+  vertical-align:bottom;
+}
+
+tr.blurbs {
+  vertical-align:top;
+  text-align: center;
+}
+
+td {
+  width:200px;
+  border: 0px solid transparent;
+  background-clip: padding-box;
+}
+
+td img {
+  width: 100%;
+}
+
+tr > td + td {
+  border-left-width: 50px;
+}
+
+tr + tr.icons > td {
+  border-top-width: 20px;
+}
